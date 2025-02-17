@@ -1,0 +1,14 @@
+{
+  "badges": [
+    {
+      "alt": "Terraform",
+      "url": "https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld/actions/workflows/terraform.yml",
+      "img": "https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld/workflows/Terraform/badge.svg"
+    },
+    {
+      "alt": "Dependencies Status",
+      "url": "https://david-dm.org/AWS-Terraform-Projects/aws-lambda-helloworld?path=hello-world",
+      "img": "https://david-dm.org/AWS-Terraform-Projects/aws-lambda-helloworld/status.svg?path=hello-world"
+    }
+  ]
+}

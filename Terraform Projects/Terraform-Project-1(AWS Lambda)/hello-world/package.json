@@ -1,0 +1,35 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "description": "hello world sample for NodeJS",
+  "main": "app.js",
+  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lodash": "^4.17.21",
+    "y18n": "^5.0.8"
+  },
+  "scripts": {
+    "test": "jest",
+    "build-local": "del-cli dist/**/* && tsc && webpack --mode development",
+    "build-optimized": "del-cli dist/**/* && jest && tsc && webpack && del-cli dist/app.js && del-cli dest/app.js.map --mode production",
+    "invoke-lambda": "tsc && sam local invoke --template ../template.yaml --event ../events/event.json"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.64",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.10",
+    "chai": "^4.2.0",
+    "del-cli": "^3.0.1",
+    "jest": "^26.6.3",
+    "mocha": "^6.1.4",
+    "ts-jest": "^26.4.4",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.1.2",
+    "webpack": "^5.8.0",
+    "webpack-cli": "^4.2.0",
+    "zip-webpack-plugin": "^3.0.0"
+  }
+}

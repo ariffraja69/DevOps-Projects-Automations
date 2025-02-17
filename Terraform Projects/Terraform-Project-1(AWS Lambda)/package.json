@@ -1,0 +1,27 @@
+{
+  "name": "aws-lambda-helloworld",
+  "version": "1.0.0",
+  "description": "An example project to deploy a lambda using Terraform and AWS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld.git"
+  },
+  "keywords": [
+    "lambda",
+    "aws",
+    "terraform"
+  ],
+  "author": "Dennis Chacko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld/issues"
+  },
+  "homepage": "https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld#readme",
+  "devDependencies": {
+    "@appnest/readme": "^1.2.7"
+  }
+}
